@@ -1,0 +1,927 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: url(img/slider2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}nav{
+    display: flex;
+}
+nav img{
+    /* Marketplace */
+position: absolute;
+width: 169px;
+height: 34px;
+left: 90px;
+right: 1069px;
+top: 39px;
+bottom: -13px;
+color: rgb(255, 253, 253);
+font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+nav ul{
+    display: flex;
+    color: white;
+    /* Deals */
+position: absolute;
+width: 200px;
+gap: 60px;
+height: 22px;
+left: 400px;
+font-size: 20px;
+right: -202px;
+top: 44px;
+bottom: -44px;
+}
+nav input{
+    /* Rectangle 6 */
+position: absolute;
+width: 300px;
+height: 50px;
+left: 1270px;
+right: -1016px;
+top: 30px;
+bottom: -30px;
+background: rgb(255, 255, 255);
+/* Search marketplace */
+
+color: rgb(102, 102, 102);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text h1{
+    /* More Options. More to Love. */
+position: absolute;
+width: 277px;
+height: 97px;
+left: 90px;
+top: 115px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text button{
+    
+position: absolute;
+width: 109px;
+height: 55px;
+left: 90px;
+top: 300px;
+background: rgb(118, 185, 0);
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+
+}
+header .lol{
+    /* Ellipse 4 */
+position: absolute;
+
+height: 10px;
+left: 800px;
+top: 355px;
+}
+nav ul li:hover{
+    color: greenyellow;
+}
+nav input:hover{
+    background-color: black;
+ transition: 1s;
+}
+header .text button:hover{
+    background-color: black;
+    color: greenyellow;
+    transition: 1s;
+    border: none;
+}
+section h1{
+    /* Gaming and Entertainment */
+position: absolute;
+width: 630px;
+height: 58px;
+left: 550px;
+top: 430px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-1{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 90px;
+top: 550px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-1 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-1 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-1 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-2{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 490px;
+top: 550px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-2 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-2 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-2 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-3{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 890px;
+top: 550px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-3 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-3 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-3 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-4{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 1290px;
+top: 550px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-4 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-4 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-4 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.container-1{
+  position: absolute;
+  top: -10px;
+
+}
+
+.container-1 a:hover{
+    color: greenyellow;
+}
+section .pop{
+    /* Graphics Cards, Laptops and Embedded Systems */
+position: absolute;
+width: 1156px;
+height: 58px;
+left: 300px;
+top: 910px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-5{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 90px;
+top: 1050px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-5 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-5 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-5 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-6{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 490px;
+top: 1050px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-6 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-6 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-6 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-7{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 890px;
+top: 1050px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-7 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-7 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-7 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-8{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 1290px;
+top: 1050px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-8 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-8 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-8 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.container-2{
+    position: relative;
+    top: -410px;
+
+}
+.container-2 a:hover{
+    color: greenyellow;
+    
+}
+
+section .hp{
+    /* Networking */
+position: absolute;
+width: 274px;
+height: 58px;
+left: 700px;
+top: 1430px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-9{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 90px;
+top: 1560px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-9 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-9 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-9 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-10{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 490px;
+top: 1560px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-10 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-10 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-10 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-11{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 890px;
+top: 1560px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-11 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-11 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-11 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-12{
+    /* Rectangle 8 */
+position: absolute;
+width: 290px;
+height: 302px;
+left: 1290px;
+top: 1560px;
+box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.box-12 h1{
+    /* Graphics Cards and Desktops */
+position: absolute;
+width: 178px;
+height: 44px;
+left: 56px;
+top: 190px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-12 :nth-child(3){
+    position: absolute;
+width: 178px;
+height: 44px;
+left: 100px;
+top: 216px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-12 a{
+    /* Shop now */
+position: absolute;
+width: 200px;
+height: 17px;
+left: 103px;
+top: 277px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.container-3{
+    position: relative;
+    top: -390px;
+   
+}
+.container-3 a:hover{
+    color: greenyellow;
+}
+footer{
+ position: relative;
+ width: 1500px;
+ height: 620px;
+ top: 1580px;
+ box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+left: 90px;
+
+}
+.fo img{
+    /* computer 1 */
+position: absolute;
+width: 750px;
+height: 350px;
+left: 15px;
+top: 29px;
+}
+.fo .plo{
+    /* NVIDIA Deep Learning Institute */
+position: absolute;
+width: 430px;
+height: 130px;
+left: 800px;
+top: 29px;
+ 
+}
+.fo p{
+    /* Education and Training Solutions to Solve the World's Most Challenging Problems */
+position: absolute;
+width: 490px;
+height: 44px;
+left: 800px;
+top: 199px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.fo button{
+    /* Rectangle 9 */
+position: absolute;
+width: 233px;
+height: 62px;
+left: 800px;
+top: 318px;
+background: rgb(118, 185, 0);
+border: none;
+font-size: 17px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+
+}
+footer .fo button:hover{
+    background-color: black;
+    color: greenyellow;
+    transition: 1s;
+}
+.kol img{
+    /* logo 1 */
+position: absolute;
+width: 99.69px;
+height: 30.94px;
+left: 69px;
+top: 500px;
+}
+.kol p{
+    /* USA - United States */
+position: absolute;
+width: 175.45px;
+height: 22px;
+left: 1120px;
+top: 500px;
+color: rgb(102, 102, 102);
+font-family: Inter;
+font-size: 18px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
